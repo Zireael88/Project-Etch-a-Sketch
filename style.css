@@ -1,0 +1,43 @@
+body{
+    background-color: pink;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin: 20px;
+}
+.box{
+    background-color: white;
+    border: 1px solid rgb(211, 211, 211);
+    width: 10px;
+    height: 10px;
+}
+
+.toolbox{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap:10px;
+}
+
+.color{
+    width: 50px;
+    height: 50px;
+    border:4px solid white;
+    border-radius: 25px;
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}
